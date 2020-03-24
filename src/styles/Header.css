@@ -1,0 +1,19 @@
+.container {border: 2px solid green;}
+.header {
+    background-color: #181818;
+}
+.navbar {
+    background-color: #181818;
+    padding: .5rem 0;
+}
+.navbar-logo {
+    font-family: 'Akronim', cursive;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+.navbar-logo:hover {
+    color: #ED5565;
+    text-decoration: none;
+}
