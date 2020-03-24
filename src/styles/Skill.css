@@ -2,6 +2,7 @@
     width: 100%;
     border: 1px solid white;
     margin: 0;
+    border-radius: 20px;
 }
 .skillTitle {
     text-transform: capitalize;
@@ -13,7 +14,7 @@
     width: 100%;
     height: auto;
     color: white;
-    border: 2px solid #ED5565;
+    border: 2px solid #1785A7;
     text-align: center;
     border-radius: 20px;
     display: flex;
@@ -34,7 +35,7 @@
 }
 .skillC:hover{
     transform: scale(1.1);
-    background-color: #ED5565;
+    background-color: #1785A7;
     opacity: 1;
 }
 .skill-image {
@@ -51,7 +52,7 @@
 }
 .skill-porcent p{
     line-height: normal;
-    color: #707070;
+    color: white;
 }
 
 @media screen and (max-width:767px){

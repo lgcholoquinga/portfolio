@@ -1,0 +1,7 @@
+.congress-title {
+    text-transform: capitalize;
+    color: white;
+    font-size: 7rem;
+    opacity: .5;
+    text-align: right;
+}
