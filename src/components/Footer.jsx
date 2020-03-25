@@ -3,8 +3,15 @@ import '../styles/Footer.css';
 
 const Footer = () => {
     return (
-        <footer>
-            <h1>Soy el Footer</h1>
+        <footer className="footer">
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        <h2 className="footer-text">© 2020 Copyright: All rights reserved.</h2>
+                    </div>
+                </div>
+            </div>
+
         </footer>
     );
 };
