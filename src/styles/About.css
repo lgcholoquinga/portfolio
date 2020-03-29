@@ -58,6 +58,22 @@
     margin-bottom: 0;
     padding-left: 10px;
 }
+.about-school {
+    display: inline-flex;
+    color: white;
+    align-items: center;
+}
+.about-details-school {
+    color: #5BCFAE;
+    font-size: 3rem;
+    align-items: center;
+}
+.about-school h4 {
+    color: white;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
 @media screen and (max-width:480px){
     .about-title {
         font-size: 4rem;
@@ -80,6 +96,13 @@
         font-size: 2rem;
     }
     .about-birdthday h4 {
+        color: white;
+        font-size: 1rem;
+    }
+    .about-details-school {
+        font-size: 2rem;
+    }
+    .about-school h4 {
         color: white;
         font-size: 1rem;
     }

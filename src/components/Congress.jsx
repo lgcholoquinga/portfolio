@@ -17,7 +17,7 @@ const Congress = () => {
     },[]);
     return (
         <section className="container">
-            <h1 className="congress-title">Congress</h1>
+            <h1 className="congress-title" id="congress">Congress</h1>
             <div className="row congress-container">
                 {
                     congress.map((item) => (
