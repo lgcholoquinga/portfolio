@@ -19,10 +19,10 @@ const Project = () => {
     return (
         <section className='container'>
             <h2 className='projects-title'>Projects</h2>
-            <div className="row project-container">
+            <div className="row">
                 {
                     project.map((item) => (
-                        <div className="col-12 col-md-6" key={item.id}>
+                        <div className="col-12 col-md-6 project" key={item.id}>
                             <div className="project-card">
                                 <div className="project-card-image">
                                     <a href="/">
@@ -48,6 +48,8 @@ const Project = () => {
                         </div>
                     ))
                 }
+                <br />
+                <br/>
             </div>
         </section>
     );

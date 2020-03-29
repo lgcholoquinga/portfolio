@@ -44,7 +44,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/">
-                  Courses
+                  Congresses
                 </a>
               </li>
               <li className="nav-item">

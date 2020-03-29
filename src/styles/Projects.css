@@ -1,3 +1,6 @@
+.project {
+    margin-bottom: 20px;
+}
 .projects-title {
     color: white;
     text-transform: capitalize;
@@ -37,6 +40,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: capitalize;
+    margin-bottom: 0;
 }
 .project-card-details {
     position: relative;
