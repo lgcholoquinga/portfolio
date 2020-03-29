@@ -5,3 +5,83 @@
     font-size: 7rem;
     text-align: right;
 }
+.about-details-graduation {
+    color: #5BCFAE;
+    font-size: 3rem;
+}
+.about-graduation {
+    display: inline-flex;
+    color: white;
+    align-items: center;
+}
+.about-graduation h4 {
+    color: white;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+.about-details-language {
+    color: #5BCFAE;
+    font-size: 3rem;
+    align-items: center;
+}
+.about-language {
+    display: inline-flex;
+    color: white;
+    align-items: center;
+}
+.about-language h4 {
+    color: white;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+.about-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.strong-aboutme {
+    color: #5BCFAE;
+}
+
+.about-birdthday {
+    display: inline-flex;
+    color: white;
+    align-items: center;
+}
+.about-details-birdthday {
+    color: #5BCFAE;
+    font-size: 3rem;
+    align-items: center;
+}
+.about-birdthday h4 {
+    color: white;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+@media screen and (max-width:480px){
+    .about-title {
+        font-size: 4rem;
+    }
+    .about-details-graduation {
+        font-size: 2rem;
+    }
+    .about-graduation h4 {
+        color: white;
+        font-size: 1rem;
+    }
+    .about-details-language {
+        font-size: 2rem;
+    }
+    .about-language h4 {
+        color: white;
+        font-size: 1rem;
+    }
+    .about-details-birdthday {
+        font-size: 2rem;
+    }
+    .about-birdthday h4 {
+        color: white;
+        font-size: 1rem;
+    }
+
+}
